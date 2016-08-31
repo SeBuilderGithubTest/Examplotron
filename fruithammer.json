@@ -1,11 +1,24 @@
 {
   "type": "script",
   "seleniumVersion": "2",
-  "formatVersion": 1,
+  "formatVersion": 2,
   "steps": [
     {
       "type": "get",
       "url": "http://www.meatafilter.com/"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "ham"
+      }
     }
-  ]
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
 }
